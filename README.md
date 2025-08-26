@@ -41,6 +41,7 @@ Proyek ini adalah implementasi deep learning menggunakan arsitektur VGG16 untuk 
 Clone repo:
 
 git clone https://github.com/rizkynandapr/CreditCardVGG16.git
+
 cd CreditCardVGG16
 
 ---
@@ -71,4 +72,5 @@ scikit-learn
 
 ## 📊 Hasil
 Model menunjukkan akurasi yang baik dalam klasifikasi transaksi.
+
 Visualisasi hasil training ditampilkan pada notebook.
