@@ -1,56 +1,44 @@
-Credit Card Fraud Detection with VGG16
-📌 Deskripsi Proyek
+🧠 Credit Card Fraud Detection — Deep Learning VGG16
 
-Proyek ini adalah implementasi deep learning menggunakan arsitektur VGG16 untuk mendeteksi transaksi kartu kredit yang berpotensi sebagai fraud (penipuan). Model dibangun dengan TensorFlow/Keras dan dataset transaksi kartu kredit, lalu dilakukan pelatihan serta evaluasi untuk mengukur performa deteksi.
+Proyek ini adalah implementasi deep learning menggunakan arsitektur VGG16 untuk mendeteksi transaksi kartu kredit yang berpotensi sebagai fraud. Model dibangun dengan TensorFlow/Keras dan dataset transaksi kartu kredit. Cocok untuk pembelajaran machine learning, penelitian, maupun implementasi sistem deteksi penipuan finansial.
 
-Dengan adanya sistem ini, diharapkan dapat membantu industri finansial dalam mendeteksi aktivitas mencurigakan secara otomatis serta meminimalisir kerugian akibat transaksi ilegal.
+📂 Struktur File
+File	Deskripsi
+CreditCardVGG16_Fix.ipynb	Notebook utama berisi preprocessing, training, dan evaluasi model.
+requirements.txt	Daftar dependencies yang diperlukan.
+README.md	Dokumentasi project.
+⚙️ Alur Model
+Tahap	Deskripsi
+Data Preprocessing	Membersihkan, menyeimbangkan data, dan menyiapkan input.
+Transfer Learning	Menggunakan arsitektur VGG16 pretrained sebagai feature extractor.
+Training Model	Fine-tuning layer sesuai dataset kartu kredit.
+Evaluasi	Menghitung akurasi, loss, dan visualisasi hasil.
+✨ Fitur Utama
 
-⚙️ Fitur
+🔄 Transfer Learning dengan VGG16 untuk deteksi transaksi fraud.
 
-Preprocessing dataset transaksi kartu kredit.
+📊 Visualisasi training (akurasi & loss).
 
-Implementasi transfer learning dengan VGG16.
+⚡ Implementasi cepat dengan TensorFlow/Keras.
 
-Evaluasi performa model (akurasi, loss, dll).
+📝 Notebook interaktif untuk eksplorasi & modifikasi.
 
-Visualisasi hasil training.
+🚀 Cara Menjalankan
 
-📂 Struktur Project
-📦 CreditCardVGG16
- ┣ 📜 CreditCardVGG16_Fix.ipynb   # Notebook utama (Google Colab)
- ┣ 📜 README.md                   # Dokumentasi project
- ┗ 📂 dataset/                    # Dataset transaksi kartu kredit (jika digunakan lokal)
+Clone repo:
 
-🚀 Cara Menjalankan Project
-
-Clone repository:
-
-git clone https://github.com/username/CreditCardVGG16.git
+git clone https://github.com/USERNAME/CreditCardVGG16.git
 cd CreditCardVGG16
 
 
-Buka file .ipynb di Google Colab atau Jupyter Notebook:
+Install dependencies:
 
-Jika di Google Colab:
+pip install -r requirements.txt
 
-Upload file CreditCardVGG16_Fix.ipynb
 
-Pastikan dataset tersedia atau sesuaikan path dataset.
-
-Jika di Jupyter:
+Jalankan notebook:
 
 jupyter notebook CreditCardVGG16_Fix.ipynb
-
-
-Jalankan seluruh sel notebook untuk melatih model.
-
-📊 Hasil & Evaluasi
-
-Model dilatih menggunakan VGG16 pre-trained.
-
-Hasil akurasi dan loss divisualisasikan di akhir notebook.
-
-Performa dapat disesuaikan berdasarkan jumlah epoch, learning rate, dan preprocessing dataset.
 
 🛠️ Teknologi yang Digunakan
 
@@ -62,14 +50,10 @@ NumPy, Pandas
 
 Matplotlib, Seaborn
 
-🤝 Kontribusi
+scikit-learn
 
-Jika ingin berkontribusi:
+📊 Hasil
 
-Fork repository.
+Model menunjukkan akurasi yang baik dalam klasifikasi transaksi.
 
-Buat branch baru (feature-xyz).
-
-Commit perubahan.
-
-Ajukan pull request.
+Visualisasi hasil training ditampilkan pada notebook.
