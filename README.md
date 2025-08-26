@@ -8,7 +8,6 @@ Proyek ini adalah implementasi deep learning menggunakan arsitektur VGG16 untuk 
 | File                        | Deskripsi                                                          |
 | --------------------------- | ------------------------------------------------------------------ |
 | `CreditCardVGG16_Fix.ipynb` | Notebook utama berisi preprocessing, training, dan evaluasi model. |
-| `requirements.txt`          | Daftar dependencies yang diperlukan.                               |
 | `README.md`                 | Dokumentasi project.                                               |
 
 ---
